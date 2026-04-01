@@ -17,7 +17,7 @@ url = { version = "2", features = ["serde"] }
 
 near-crypto = "0.35"
 near-primitives = "0.35"
-near-jsonrpc-client = { git = "https://github.com/near/near-jsonrpc-client-rs", branch = "bump-near-crates-0.35" }
+near-jsonrpc-client = "0.21"
 near-jsonrpc-primitives = "0.35"
 
 near-token = "0.3.0"
