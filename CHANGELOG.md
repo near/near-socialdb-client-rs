@@ -20,6 +20,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.15.1](https://github.com/near/near-socialdb-client-rs/compare/v0.15.0...v0.15.1) - 2026-06-03
+
+### Other
+
+- bump nearcore crates to 0.36 (2.12 / protocol 84) ([#45](https://github.com/near/near-socialdb-client-rs/pull/45))
+
 ## [0.15.0](https://github.com/near/near-socialdb-client-rs/compare/v0.14.0...v0.15.0) - 2026-04-01
 
 ### Other
