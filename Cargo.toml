@@ -26,10 +26,3 @@ near-token = "0.3.0"
 [dev-dependencies]
 httpmock = "0.7.0"
 tokio = { version = "1", features = ["full"] }
-
-# RC-only: near-jsonrpc-client is not yet published at 0.36.x. Pull the 2.12 bump
-# from its sibling branch (near/near-jsonrpc-client-rs#189), which carries
-# near-jsonrpc-client at 0.36.0. Remove before release once
-# near-jsonrpc-client 0.36.x is published to crates.io.
-[patch.crates-io]
-near-jsonrpc-client = { git = "https://github.com/near/near-jsonrpc-client-rs", branch = "bump/nearcore-2.12" }
