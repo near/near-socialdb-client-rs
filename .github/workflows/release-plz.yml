@@ -30,7 +30,7 @@ jobs:
         with:
           command: release-pr
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.NEARPROTOCOL_CI_PR_ACCESS }}
 
   release-plz-release:
     name: Release-plz release
@@ -58,7 +58,7 @@ jobs:
         with:
           command: release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.NEARPROTOCOL_CI_PR_ACCESS }}
 
       # release-plz doesn't expose the produced .crate path, so re-package locally.
       # The crate tarball is reproducible from the same commit, so the attestation
