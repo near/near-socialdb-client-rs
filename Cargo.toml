@@ -18,7 +18,7 @@ url = { version = "2", features = ["serde"] }
 
 near-crypto = "=0.38.0-rc.2"
 near-primitives = "=0.38.0-rc.2"
-near-jsonrpc-client = "=0.23.0-rc.1"
+near-jsonrpc-client = "=0.23.0-rc.2"
 near-jsonrpc-primitives = "=0.38.0-rc.2"
 
 near-token = "0.3.0"
