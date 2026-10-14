@@ -15,8 +15,7 @@ jobs:
       contents: write
       pull-requests: read
     steps:
-      - &checkout
-        name: Checkout repository
+      - name: Checkout repository
         uses: actions/checkout@v6
         with:
           fetch-depth: 0
@@ -43,7 +42,13 @@ jobs:
       group: release-plz-${{ github.ref }}
       cancel-in-progress: false
     steps:
-      - *checkout
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          # Queued runs must prepare the PR from the latest main, not an older push.
+          ref: main
+          fetch-depth: 0
+          persist-credentials: false
       - *install-rust
       - name: Run release-plz
         uses: release-plz/action@v0.5
