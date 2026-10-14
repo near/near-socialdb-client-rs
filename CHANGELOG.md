@@ -7,31 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.12.0](https://github.com/bos-cli-rs/near-socialdb-client-rs/compare/v0.11.0...v0.12.0) - 2025-08-15
-
-### Other
-
-- [**breaking**] update near-* dependencies to 0.31 release ([#34](https://github.com/bos-cli-rs/near-socialdb-client-rs/pull/34))
-# Changelog
-All notable changes to this project will be documented in this file.
-
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
-
-## [Unreleased]
-
 ## [0.17.0-rc.3](https://github.com/near/near-socialdb-client-rs/compare/v0.17.0-rc.2...v0.17.0-rc.3) - 2026-10-14
 
 ### Other
 
 - bump nearcore to 2.14.0-rc.4 ([#57](https://github.com/near/near-socialdb-client-rs/pull/57))
-
-## [0.17.0-rc.2](https://github.com/near/near-socialdb-client-rs/compare/v0.17.0-rc.1...v0.17.0-rc.2) - 2026-09-25
-
-### Other
-
-- release v0.17.0-rc.2 ([#54](https://github.com/near/near-socialdb-client-rs/pull/54))
-- bump near-jsonrpc-client to 0.23.0-rc.2 ([#55](https://github.com/near/near-socialdb-client-rs/pull/55))
 
 ## [0.17.0-rc.2](https://github.com/near/near-socialdb-client-rs/compare/v0.17.0-rc.1...v0.17.0-rc.2) - 2026-09-25
 
@@ -74,6 +54,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Other
 
 - [**breaking**] updated deps to nearcore 2.10 release ([#37](https://github.com/bos-cli-rs/near-socialdb-client-rs/pull/37))
+
+## [0.12.0](https://github.com/bos-cli-rs/near-socialdb-client-rs/compare/v0.11.0...v0.12.0) - 2025-08-15
+
+### Other
+
+- [**breaking**] update near-* dependencies to 0.31 release ([#34](https://github.com/bos-cli-rs/near-socialdb-client-rs/pull/34))
 
 ## [0.11.0](https://github.com/bos-cli-rs/near-socialdb-client-rs/compare/v0.10.1...v0.11.0) - 2025-05-09
 
