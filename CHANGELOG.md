@@ -6,6 +6,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.17.0](https://github.com/near/near-socialdb-client-rs/compare/v0.17.0-rc.3...v0.17.0) - 2026-11-02
+
+### Other
+
+- release v0.17.0 ([#59](https://github.com/near/near-socialdb-client-rs/pull/59))
+- *(deps)* update nearcore deps to 2.14 stable ([#61](https://github.com/near/near-socialdb-client-rs/pull/61))
+
 ## [0.17.0](https://github.com/near/near-socialdb-client-rs/compare/v0.16.0...v0.17.0) - 2026-11-02
 
 ### Other
